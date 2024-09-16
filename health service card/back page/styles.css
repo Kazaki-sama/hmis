@@ -1,0 +1,54 @@
+@page{
+    size: A4;
+    margin: 1cm;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.table-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100px;
+    
+}
+
+
+table{
+    
+    border-collapse: collapse;
+    
+}
+
+th{
+    width: 70%;
+    border:1px solid black;
+    background-color: rgba(187, 187, 187, 0.726);
+   
+}
+
+.td{
+    border: 1px solid black;
+    height: 98vh;
+    text-align: center;
+}
+td{
+    width: 70%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+textarea{
+    resize: none;
+    outline: none;
+    border: none;
+
+}

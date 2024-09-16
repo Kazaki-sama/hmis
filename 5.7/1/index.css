@@ -1,0 +1,158 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+
+body{
+    font-size: 10pt;
+  
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.container{
+    border: 1px solid black;
+    position: absolute;  
+  margin-bottom: 10px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.head img{
+    margin-top: 10px;
+}
+.head pre{
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+.first{
+   padding:10px ;
+   padding-bottom:0 ;
+    
+   
+    border-bottom: 1px solid black;
+   
+    
+}
+.second{
+    padding:10px ;
+    padding-top:0;
+    padding-bottom:0 ;
+     border-bottom: 1px solid black;
+ }
+
+ .third{
+    
+    padding:10px ;
+    padding-top:0;
+    padding-bottom:0 ;
+     border-bottom: 1px solid black;
+ }
+
+ .third table{
+    margin-top: 0;
+ }
+ .third th{
+   
+    width: 30px;
+   
+ }
+.fourth{
+    padding:10px ;
+    padding-top:0;
+    padding-bottom:0 ;
+     border-bottom: 1px solid black;
+}
+
+.fifth{
+    padding:10px ;
+    padding-top:0;
+    padding-bottom:0 ;
+     border-bottom: 1px solid black;
+     text-align: center;
+}
+.fifth th{
+    border: 1px solid black;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            height: 100px;
+            text-align: center;
+}
+.fifth td{
+    height: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table td{
+    border: 1px solid black;
+}
+input{
+    background:none;
+    border: none;
+    outline: none;
+}
+
+textarea{
+    background:none;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 50px;
+    height: 100px;
+}
+table th{
+    border: 1px solid black;
+}
+.tr td {
+    
+    height: 10px;
+}
+.tr textarea{
+    height: 16pt;
+}
+.lastrow td{
+        height: 600px;
+        width: 300px;
+}
+.lastrow textarea{
+    height: 600px;
+    width: 300px;
+}
+.fifth .lastrow-td{
+    width: 30px;
+}
+.fifth .lastrow-td textarea{
+    width: 60px;
+    height: 90px;
+    writing-mode: vertical-rl;
+            transform: rotate(180deg);
+
+        }
+@media print {
+    body{
+        font-size: 12pt;
+    }
+    .fifth .lastrow-td textarea{
+        width: 80px;
+        }
+   
+    .main{
+        display: grid;
+        justify-content: none;
+    }
+}

@@ -1,0 +1,96 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+body{
+    font-size: 12pt;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+}
+table {
+    width: 99%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    position: absolute;
+    
+}
+th{
+    font-size: 8pt;
+    background-color: #e6e6e6;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+input{
+    position: relative;
+    width: 100px;
+    outline: none;
+    border: none;
+    background: none;
+}
+tr td:nth-child(9) textarea{
+    width: 25px;
+    outline: none;
+    height: 50px;
+    border: none;
+    resize: none;
+    
+    
+}
+
+textarea{
+    resize: none;
+    width: 70px;
+    height: 70px;
+    background: none;
+    border: none;
+    outline: none;
+}
+tr td:nth-child(10) textarea{
+    width: 70px;
+    outline: none;
+    height: 40px;
+    
+    border: none;
+    resize: none;
+    
+    
+}
+tr td:nth-child(9) textarea::placeholder{
+    font-size:7pt;
+    
+}
+tr td:nth-child(10) textarea::placeholder{
+    font-size: 6pt;
+    
+}
+@media print {
+    body{
+        font-size: 8pt;
+    }
+    th{
+        font-size: 5pt;
+    }
+    textarea{
+        height: 40px;
+        width: 30px;
+    }
+    textarea::placeholder{
+        font-size: 4pt;
+        
+    }
+    input::placeholder{
+        font-size: 6pt;
+        
+    }
+   
+    tr td:nth-child(10) textarea::placeholder{
+        font-size: 3pt;
+        
+    }
+} 

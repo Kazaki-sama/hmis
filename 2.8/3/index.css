@@ -1,0 +1,58 @@
+@page{
+    size: A4;
+    margin: 1;
+}
+
+body{
+    font-size: 10pt;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 5px;
+        width: 100%;
+    background: none;
+}
+
+table th, td{
+    border: 1px solid black;
+}
+th[rowspan]{
+    border-bottom: 1px solid black;
+}
+.rotate{
+    transform: rotate(270deg);
+    text-align: center;
+   
+  
+}
+
+ td{
+    height: 12pt;
+    width: 100pt;
+}
+.big{
+    width: 700px;
+}
+textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    width: 20px;
+}
+.text textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 10px;
+}
+@media print {
+    
+    body{
+        font-size: 12pt;
+    }
+    .big td{
+        width: 800px;
+    }
+}

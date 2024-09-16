@@ -1,0 +1,59 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+
+body{
+    font-size: 10pt;
+}
+
+table{
+    border-collapse: collapse;
+    width: 98%;
+    position: absolute;
+}
+
+table th,td{
+    border: 1px solid black;
+    height: 20px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+input{
+    outline: none;
+    border: none;
+    width: 20px;
+}
+div input{
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted black;
+    width: 100px;
+}
+
+
+textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    position: relative;
+}
+
+div{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    text-align: center;
+    
+}
+
+@media print {
+    body{
+        font-size: 8pt;
+    }
+}

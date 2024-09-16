@@ -1,0 +1,73 @@
+@page{
+    size: A4;
+    margin:0
+}
+
+body{
+    font-size: 12pt;
+    padding: .1rem;
+}
+.vertical{
+    writing-mode: vertical-lr; transform: rotate(180deg); width: 30px; height: 60px;
+}
+.name{
+    width: 80px;
+}
+.small{
+    width: 90px;
+}
+.xs{
+    width: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head input{
+    border-bottom: 1px dotted black;
+    width: 100px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+}
+thead{
+    background-color:#e6e6e6;
+}
+.highlight{
+    background-color:#e6e6e6;
+}
+p{
+    text-align: center;
+}
+input{
+    outline: none;
+    border: none;
+    width: 40px;
+    background: none;
+    font-size: 8pt;
+
+}
+
+.space input{
+    border-bottom: 1px dotted black;
+    width: 20px;
+}
+/* .space p{
+    text-align: ;
+} */
+
+@media print {
+   body{
+    font-size: 12pt ;
+   }
+}

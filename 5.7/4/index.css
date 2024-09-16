@@ -1,0 +1,26 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+
+body{
+    font-size: 10pt;
+   
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 50px;
+
+}

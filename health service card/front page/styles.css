@@ -1,0 +1,179 @@
+@page{
+    size: A4;
+    margin: 1cm;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8pt;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.num{
+    
+    width: 30px;
+}
+
+.upper td{
+    text-align: left;
+    padding: .4rem;
+
+} 
+
+.table-form{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+.table-form-sub{
+    width: 49.5%;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td{
+    border:1px solid #000000;
+    height: 20px;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+   height: 40px;
+}
+
+textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.card-container {
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 5px;
+    
+    
+}
+hr{
+   border: none;
+   height: 1px;
+   background-color: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 120px;
+   background-color: rgb(221, 220, 220);
+    margin-bottom: 0;
+}
+
+.header p{
+    margin-bottom: 4px;
+}
+.td-bg{
+    background-color:  rgb(221, 220, 220);
+}
+.logo {
+    width: 80px;
+}
+
+.header-text{
+    
+    text-align: center;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    background-color:  #dddcdc;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    border: 1px solid black;
+
+    text-align: center;
+}
+
+.info-table tr:first-child td {
+    font-weight: bold;
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px dotted black;
+    outline: none;
+    width: 100px;
+    background: none;
+}
+.card-container td:first-child{
+    border-left: none;
+}
+.card-container td:last-child{
+    border-right: none;
+}
+.second-tb{
+    width: 49.5%;
+}
+
+.td{
+    height: 218px;
+}
+
+@media print{
+    body{
+        font-size: 6pt;
+    }
+    .upper-table{
+        border-collapse: collapse;
+        width: 70%;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+    .td{
+        height: 260px;
+    }
+
+    .upper-table-2{
+        border-collapse: collapse;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+}

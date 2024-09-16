@@ -1,0 +1,46 @@
+body{
+    font-size: 12pt;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.container img{
+    margin-top: 70px;
+}
+.container p , h5{
+    text-align: center;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table th , td{
+    border: 1px black solid;
+    text-align: center;
+}
+.bot{
+    border-bottom: none;
+    border-top: none;
+    
+}
+.lr{
+   border: none;
+   
+   height: 10px;
+
+}
+
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.table-main{
+    display: flex;
+    
+}
