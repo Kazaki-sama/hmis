@@ -1,0 +1,9 @@
+input{
+    border-radius: 5px;
+    height: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+

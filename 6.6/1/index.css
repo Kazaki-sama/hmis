@@ -1,0 +1,46 @@
+body{
+    font-size: medium;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h2{
+    text-align: center;
+}
+.head img{
+    width: 150px;
+    height: 150px;
+}
+.main  {
+    padding: 6rem;
+    
+}
+.container{
+    border: 1px solid black;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+td,th{
+    
+    border: 1px solid black;
+    border-bottom: none;
+}
+td:first-child(){
+    border-right: none;
+}
+td:last-child(){
+    border-right: none;
+}
+input{
+    border: none;
+    border-bottom: 1px dotted black;
+}
+.snd input{
+    width: 70px ;
+    border: none;
+}

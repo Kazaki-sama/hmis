@@ -1,0 +1,54 @@
+@page{
+    size: A4;
+    margin: 0cm;
+}
+body{
+    font-size: 16pt;
+}
+.main{
+    padding:4rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+input{
+    outline:none;
+    background: none;
+    border: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table td{
+    font-size: 12pt;
+    border: 1px solid black;
+}
+
+@media screen {
+    
+}
+@media print {
+    body{
+        font-size: small;
+    }
+}
+
+@media (max-width: 600px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .head div {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

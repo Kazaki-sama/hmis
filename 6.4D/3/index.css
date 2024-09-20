@@ -1,0 +1,15 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table td , th{
+    font-size: 12pt;
+    border: 1px solid black;
+}
+
+input{
+    border:none;
+    outline: none;
+    background: none;
+    height: 40px;
+}

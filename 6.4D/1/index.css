@@ -1,0 +1,10 @@
+body{
+    font-size: 18pt;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+p,h3{
+    text-align: center;
+}
