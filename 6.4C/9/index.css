@@ -1,0 +1,75 @@
+@page{
+    size:A4;
+    margin: 0mm;
+}
+body{
+    font-size: 16pt;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    font-size: 12pt;
+    border: 1px solid black;
+    width: 50%;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top:0;
+}
+input{
+    /* border: none; */
+    background: none;
+    outline: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.right{
+    font-size: 12pt;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.middle{
+    padding: .4rem;
+}
+
+.upper-p{
+    height: 150px;
+}
+.lower-p{
+    height: 90px;
+}
+.left-space{
+    margin-left: 61%;
+}
+.left-space input{
+    width: 100px;
+}
+@media print {
+    .right{
+        font-size: 10pt;
+    }
+    .left{
+        font-size: 10pt;
+    }
+    input{
+        width: 100px;
+        font-size: 6pt;
+    }
+    .left-space{
+        margin-left: 55%;
+    }
+    .left-space input{
+        width: 75px;
+    }
+}

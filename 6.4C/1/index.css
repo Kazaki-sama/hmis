@@ -1,0 +1,74 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+body{
+    font-size: 10pt;
+}
+.main{
+    padding: 6rem;
+}
+.container{
+    border: 1px solid black;
+}
+.space{
+    height: 150px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+.up{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+.up p{
+    text-align: center;
+}
+
+.h3{
+    
+  height: 200px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+.h3 h3{
+    /* margin-top:50px ; */
+    font-size: 20pt;
+}
+input{
+    background:none;
+    outline: none;
+    border:none;
+    width: 40px;
+}
+.bottom{
+    padding: .4rem;
+    border: 1px solid black;
+}
+.sub-bottom{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+@media print {
+    .main{
+        padding: none;
+    }
+    .space{
+        height: 100px;
+    }
+    
+
+    .h3 h3{
+        margin-top:40px ;
+        font-size: 12pt;
+    }
+}

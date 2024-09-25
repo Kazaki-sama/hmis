@@ -1,0 +1,65 @@
+@page{
+    size:A4;
+    margin: 0mm;
+}
+body{
+    font-size: 14pt;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 10pt;
+    
+}
+
+.bo-lef th:nth-child(6){
+    border-right: none;
+}
+.bo-lef th:nth-child(7){
+    border-left: none;
+}
+input{
+    border: none;
+    background: none;
+    outline: none;
+    width: 40px;
+}
+input::placeholder{
+    text-align: center;
+    font-size: 8pt;
+}
+textarea{
+    outline: none;
+    width: 97%;
+    height: 110px;
+    resize: none;
+    background: none;
+    border: none;
+}
+
+.bg-color-th th{
+    background: #BFBFBF;
+}
+.wap textarea{
+    width: 100px;
+    height: 40px;
+    font-size: 6pt;
+    font-weight: bolder;
+}
+.last-tr td{
+    font-size: 8pt;
+}
+@media print {
+    body{
+        font-size:12px;
+    }
+    th,td{
+        height: 30px;
+    }
+}

@@ -1,0 +1,57 @@
+@page{
+    size: A4;
+    margin: 0mm;
+}
+body{
+    font-size: 10pt;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.first td,th{
+    border: 2px dotted black ;
+}
+.first td:first-child{
+    border-left: 2px solid black;
+}
+.first td:last-child{
+    border-right: 2px solid black;
+}
+td,th{
+    border: 1px solid black;
+}
+.first input::placeholder{
+    text-align: center;
+}
+.second input{
+    width: 20px;
+}
+.second input::placeholder{
+    text-align: center;
+}
+input{
+    width: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.footer{
+    text-align: center; font-size: 7pt; 
+}
+@media print {
+    body{
+        font-size: 8pt;
+    }
+    th,td{
+        height: 30px;
+    }
+    .footer{
+        font-size: 6pt;
+    }
+}

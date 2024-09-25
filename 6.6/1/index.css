@@ -1,3 +1,7 @@
+@page{
+    font-size: 8pt;
+    margin: 1cm;
+}
 body{
     font-size: medium;
 }
@@ -17,7 +21,8 @@ body{
     
 }
 .container{
-    border: 1px solid black;
+    border: 3px solid black;
+
 
 }
 table{
@@ -28,19 +33,52 @@ table{
 td,th{
     
     border: 1px solid black;
-    border-bottom: none;
+
+    
 }
-td:first-child(){
+td:first-child{
+    border-left: none;
+}
+td:last-child{
     border-right: none;
 }
-td:last-child(){
-    border-right: none;
-}
+
 input{
+    width: 70px;
     border: none;
     border-bottom: 1px dotted black;
+    outline: none;
+    background: none;
 }
 .snd input{
     width: 70px ;
     border: none;
+}
+.snd thead{
+    background-color: #D9D9D9;
+}
+.last tbody{
+    border-bottom: 1px dotted black;
+}
+.upper{
+    background-color: #D9E1F2;
+}
+.no-bor input{
+    border: none;
+}
+
+@media print {
+    body{
+        font-size: 8pt;
+    }
+    .main  {
+        padding: 1rem;
+        
+    }
+    /* table{
+        table-layout: fixed;
+    } */
+    th{
+        font-size: xx-small;
+    }
 }

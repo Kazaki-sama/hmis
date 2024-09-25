@@ -1,0 +1,39 @@
+@page{
+    size: A4;
+    margin: 0mm;
+}
+body{
+    font-size: 10pt;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.small{
+    width: 20px;
+}
+input{
+    width: 80px;
+    border: none;
+    background: none;
+    outline: none;
+}
+input::placeholder{
+    text-align: center;
+}
+td,th{
+    text-align: center;
+    border: 1px solid black;
+}
+th{
+    background-color: #E2E2E2;
+    font-size: small;
+}
+
+
+@media print {
+    p{
+        font-size: 6pt;
+    }
+}
